@@ -22,7 +22,7 @@ Revision History:
 #include "util/vector.h"
 
 
-class uint_set : unsigned_vector {
+class uint_set :  unsigned_vector {
     
 public:
     
