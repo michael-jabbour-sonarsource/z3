@@ -44,6 +44,7 @@ namespace opt {
 
 
     void optsmt::set_max(vector<inf_eps>& dst, vector<inf_eps> const& src, expr_ref_vector& fmls) {
+        // Another comment
         for (unsigned i = 0; i < src.size(); ++i) {
             if (src[i] >= dst[i]) {
                 dst[i] = src[i];
