@@ -151,6 +151,7 @@ public:
         m_lnsctx(*this),
         m_lns(s(), m_lnsctx)
     {
+        // Add comment
         switch(st) {
         case s_primal:
             m_trace_id = "maxres";
