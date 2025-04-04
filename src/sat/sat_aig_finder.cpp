@@ -26,6 +26,7 @@ namespace sat {
         m_big.init(s, true);
         find_aigs(clauses);
         find_ifs(clauses);
+
     }
 
     bool aig_finder::implies(literal a, literal b) {

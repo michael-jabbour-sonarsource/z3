@@ -25,7 +25,7 @@
 #include "sat/sat_clause.h"
 #include "sat/sat_types.h"
 
-namespace sat {
+namespace sat  {
     class solver;
 
     class prob : public i_local_search {

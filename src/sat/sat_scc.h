@@ -26,7 +26,7 @@ Revision History:
 namespace sat {
     class solver;
 
-    class scc {
+    class scc  {
         struct report;
         solver &   m_solver;
         // config
